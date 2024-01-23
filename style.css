@@ -1,0 +1,103 @@
+.up {
+  width: 100px;
+  height: 63px;
+  margin-top: 100px;
+  border: none;
+  border-radius: 15px;
+  color: aqua;
+  background: rgb(42, 42, 229, 0.6);
+  border: solid 2px aqua;
+  margin: 300px 0 0 700px;
+  font-size: 16px;
+}
+.game-2 {
+  width: 100px;
+  height: 63px;
+  border: none;
+  border-radius: 15px;
+  color: aqua;
+  background: rgb(42, 42, 229, 0.6);
+  border: solid 2px aqua;
+  font-size: 16px;
+}
+.stop {
+  width: 100px;
+  height: 63px;
+  border: none;
+  border-radius: 15px;
+  color: red;
+  background: none;
+  border: solid 2px red;
+  margin: 600px 0 0 700px;
+  font-size: 16px;
+  display: none;
+}
+.lvl-1 {
+  width: 100px;
+  height: 60px;
+  border-radius: 15px;
+  border: solid 2px green;
+  color: rgb(3, 70, 3);
+  background: rgb(53, 214, 53, 0.6);
+}
+.lvl-2 {
+  width: 100px;
+  height: 60px;
+  border-radius: 15px;
+  border: solid 2px rgb(128, 113, 0);
+  color: rgb(66, 70, 3);
+  background: rgba(217, 234, 69, 0.6);
+}
+.lvl-3 {
+  width: 100px;
+  height: 60px;
+  border-radius: 15px;
+  border: solid 2px rgb(172, 1, 1);
+  color: rgb(126, 5, 5);
+  background: rgba(228, 47, 47, 0.6);
+}
+.up:hover {
+  box-shadow: 0px 0px 5px 1.3px aqua;
+}
+.stop:hover {
+  box-shadow: 0px 0px 5px 1.3px red;
+}
+.number {
+  margin: 20px 0 0 20px;
+  color: white;
+}
+body {
+  background: rgb(86, 183, 248, 0.7);
+}
+.lvls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 300px;
+  display: none;
+}
+.lvls button {
+  margin: 0 10px;
+}
+.loser {
+  background: rgb(201, 197, 197);
+  width: 500px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  margin: -540px 0 0 500px;
+  display: none;
+  border-radius: 20px;
+}
+.loser button {
+  width: 120px;
+  height: 50px;
+  font-size: 18px;
+  color: rgb(132, 91, 2);
+  background: rgb(199, 238, 4, 0.6);
+  border: solid 2px yellow;
+  border-radius: 15px;
+}
